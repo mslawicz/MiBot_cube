@@ -36,6 +36,8 @@
 #define  __RTE_COMPONENTS_H__ 
 
 /* Defines ------------------------------------------------------------------*/
+#define HCI_TL
+#define HCI_TL_INTERFACE
 #define IKS01A2 
  
 #endif /* __RTE_COMPONENTS_H__ */
