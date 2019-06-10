@@ -42,7 +42,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" />
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include" />
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" />
-								<listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm6dsl/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm303agr/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/hts221/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lps22hb/" /><listOptionValue builtIn="false" value="../Drivers/BSP/IKS01A2/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common/" /></option>
+								<listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm6dsl/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm303agr/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/hts221/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lps22hb/" /><listOptionValue builtIn="false" value="../Drivers/BSP/IKS01A2/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common/" /><listOptionValue builtIn="false" value="../Middlewares/ST/BlueNRG-MS/includes" /><listOptionValue builtIn="false" value="../Middlewares/ST/BlueNRG-MS/utils" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /></option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.88392066" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=__attribute__((weak))" />
 									<listOptionValue builtIn="false" value="__packed=__attribute__((__packed__))" />
@@ -62,7 +62,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" />
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include" />
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" />
-								<listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm6dsl/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm303agr/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/hts221/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lps22hb/" /><listOptionValue builtIn="false" value="../Drivers/BSP/IKS01A2/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common/" /></option>
+								<listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm6dsl/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm303agr/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/hts221/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lps22hb/" /><listOptionValue builtIn="false" value="../Drivers/BSP/IKS01A2/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common/" /><listOptionValue builtIn="false" value="../Middlewares/ST/BlueNRG-MS/includes" /><listOptionValue builtIn="false" value="../Middlewares/ST/BlueNRG-MS/utils" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /></option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.863587034" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=__attribute__((weak))" />
 									<listOptionValue builtIn="false" value="__packed=__attribute__((__packed__))" />
@@ -104,7 +104,7 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<sourceEntries><entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Packs" />
+					<sourceEntries><entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares" /><entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Packs" />
 						<entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup" />
 						<entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers" />
 						<entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src" />
@@ -154,7 +154,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" />
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include" />
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" />
-								<listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm6dsl/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm303agr/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/hts221/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lps22hb/" /><listOptionValue builtIn="false" value="../Drivers/BSP/IKS01A2/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common/" /></option>
+								<listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm6dsl/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm303agr/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/hts221/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lps22hb/" /><listOptionValue builtIn="false" value="../Drivers/BSP/IKS01A2/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common/" /><listOptionValue builtIn="false" value="../Middlewares/ST/BlueNRG-MS/includes" /><listOptionValue builtIn="false" value="../Middlewares/ST/BlueNRG-MS/utils" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /></option>
 								<option id="gnu.c.compiler.option.preprocessor.def.symbols.88392066" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=__attribute__((weak))" />
 									<listOptionValue builtIn="false" value="__packed=__attribute__((__packed__))" />
@@ -174,7 +174,7 @@
 									<listOptionValue builtIn="false" value="../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy" />
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F4xx/Include" />
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" />
-								<listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm6dsl/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm303agr/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/hts221/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lps22hb/" /><listOptionValue builtIn="false" value="../Drivers/BSP/IKS01A2/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common/" /></option>
+								<listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm6dsl/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lsm303agr/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/hts221/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/lps22hb/" /><listOptionValue builtIn="false" value="../Drivers/BSP/IKS01A2/" /><listOptionValue builtIn="false" value="../Drivers/BSP/Components/Common/" /><listOptionValue builtIn="false" value="../Middlewares/ST/BlueNRG-MS/includes" /><listOptionValue builtIn="false" value="../Middlewares/ST/BlueNRG-MS/utils" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /><listOptionValue builtIn="false" value="../Drivers/CMSIS/Include" /></option>
 								<option id="gnu.cpp.compiler.option.preprocessor.def.symbols.245312535" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def.symbols" useByScannerDiscovery="false" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="__weak=__attribute__((weak))" />
 									<listOptionValue builtIn="false" value="__packed=__attribute__((__packed__))" />
@@ -216,7 +216,7 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<sourceEntries><entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Packs" />
+					<sourceEntries><entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Middlewares" /><entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Packs" />
 						<entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="startup" />
 						<entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Drivers" />
 						<entry excluding="" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Src" />
