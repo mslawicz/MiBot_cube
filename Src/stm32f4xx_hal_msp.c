@@ -70,6 +70,8 @@ void HAL_MspInit(void)
   __HAL_RCC_SYSCFG_CLK_ENABLE();
   __HAL_RCC_PWR_CLK_ENABLE();
 
+  HAL_NVIC_SetPriorityGrouping(NVIC_PRIORITYGROUP_2);
+
   /* System interrupt init*/
 
   /* USER CODE BEGIN MspInit 1 */
@@ -116,7 +118,7 @@ void HAL_SPI_MspInit(SPI_HandleTypeDef* hspi)
     HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
     /* SPI1 interrupt Init */
-    HAL_NVIC_SetPriority(SPI1_IRQn, 7, 0);
+    HAL_NVIC_SetPriority(SPI1_IRQn, 1, 1);
     HAL_NVIC_EnableIRQ(SPI1_IRQn);
   /* USER CODE BEGIN SPI1_MspInit 1 */
 
@@ -233,7 +235,7 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
     /* USART2 interrupt Init */
-    HAL_NVIC_SetPriority(USART2_IRQn, 5, 0);
+    HAL_NVIC_SetPriority(USART2_IRQn, 2, 0);
     HAL_NVIC_EnableIRQ(USART2_IRQn);
   /* USER CODE BEGIN USART2_MspInit 1 */
 
