@@ -27,8 +27,13 @@ Mcu.Pin17=PB9
 Mcu.Pin18=VP_SYS_VS_Systick
 Mcu.Pin19=VP_TIM5_VS_ClockSourceINT
 Mcu.Pin2=PC15-OSC32_OUT
+<<<<<<< HEAD
 Mcu.Pin20=VP_STMicroelectronics.X-CUBE-BLE1_VS_WirelessJjBlueNRGAaMS_4.4.0
 Mcu.Pin21=VP_STMicroelectronics.X-CUBE-MEMS1_VS_BoardOoExtensionJjMEMS_6.1.0
+=======
+Mcu.Pin20=VP_STMicroelectronics.X-CUBE-MEMS1_VS_BoardOoExtensionJjMEMS_6.1.0
+Mcu.Pin21=VP_STMicroelectronics.X-CUBE-BLE1_VS_WirelessJjBlueNRGAaMS_4.4.0
+>>>>>>> c98de21ec1dfbd01b1712190105329caf2ccff8e
 Mcu.Pin3=PH0 - OSC_IN
 Mcu.Pin4=PH1 - OSC_OUT
 Mcu.Pin5=PA0-WKUP
@@ -53,7 +58,11 @@ NVIC.MemoryManagement_IRQn=true\:0\:0\:false\:false\:true\:true\:false
 NVIC.NonMaskableInt_IRQn=true\:0\:0\:false\:false\:true\:true\:false
 NVIC.PendSV_IRQn=true\:0\:0\:false\:false\:true\:false\:false
 NVIC.PriorityGroup=NVIC_PRIORITYGROUP_4
+<<<<<<< HEAD
 NVIC.SPI1_IRQn=true\:4\:0\:true\:false\:true\:true\:true
+=======
+NVIC.SPI1_IRQn=true\:7\:0\:true\:false\:true\:true\:true
+>>>>>>> c98de21ec1dfbd01b1712190105329caf2ccff8e
 NVIC.SVCall_IRQn=true\:0\:0\:false\:false\:true\:false\:false
 NVIC.SysTick_IRQn=true\:0\:0\:true\:false\:true\:true\:true
 NVIC.USART2_IRQn=true\:5\:0\:true\:false\:true\:true\:true
